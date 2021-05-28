@@ -5,7 +5,6 @@ import numpy as np
 import base64
 import io
 import requests
-from pyngrok import ngrok
 
 
 def concat(*args):
