@@ -1,0 +1,385 @@
+2021-05-28 17:42:08,871:INFO:Initializing load_model()
+2021-05-28 17:42:08,871:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:44:37,896:INFO:Initializing load_model()
+2021-05-28 17:44:37,897:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:44:48,034:INFO:Initializing load_model()
+2021-05-28 17:44:48,042:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:46:44,384:INFO:Initializing load_model()
+2021-05-28 17:46:44,387:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:46:52,963:INFO:Initializing load_model()
+2021-05-28 17:46:52,971:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:46:59,822:INFO:Initializing load_model()
+2021-05-28 17:46:59,822:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:47:19,167:INFO:Initializing load_model()
+2021-05-28 17:47:19,168:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:47:19,712:INFO:Initializing load_model()
+2021-05-28 17:47:19,714:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:47:27,247:INFO:Initializing load_model()
+2021-05-28 17:47:27,248:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:48:03,776:INFO:Initializing load_model()
+2021-05-28 17:48:03,776:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:48:04,341:INFO:Initializing load_model()
+2021-05-28 17:48:04,344:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:48:10,881:INFO:Initializing load_model()
+2021-05-28 17:48:10,881:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:48:11,275:INFO:Initializing load_model()
+2021-05-28 17:48:11,276:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:48:54,520:INFO:Initializing load_model()
+2021-05-28 17:48:54,521:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:48:54,983:INFO:Initializing load_model()
+2021-05-28 17:48:54,984:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:49:09,831:INFO:Initializing load_model()
+2021-05-28 17:49:09,831:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:49:33,878:INFO:Initializing load_model()
+2021-05-28 17:49:33,879:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:49:34,277:INFO:Initializing load_model()
+2021-05-28 17:49:34,279:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:50:40,549:INFO:Initializing load_model()
+2021-05-28 17:50:40,550:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:50:40,962:INFO:Initializing predict_model()
+2021-05-28 17:50:40,962:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x000002454012C760>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 17:50:40,963:INFO:Checking exceptions
+2021-05-28 17:50:40,964:INFO:Preloading libraries
+2021-05-28 17:50:41,110:INFO:Initializing load_model()
+2021-05-28 17:50:41,112:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:51:07,486:INFO:Initializing load_model()
+2021-05-28 17:51:07,490:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:51:15,899:INFO:Initializing load_model()
+2021-05-28 17:51:15,900:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:51:16,283:INFO:Initializing predict_model()
+2021-05-28 17:51:16,283:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x000002454677BB50>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 17:51:16,286:INFO:Checking exceptions
+2021-05-28 17:51:16,288:INFO:Preloading libraries
+2021-05-28 17:52:50,601:INFO:Initializing load_model()
+2021-05-28 17:52:50,601:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:52:50,895:INFO:Initializing predict_model()
+2021-05-28 17:52:50,896:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x0000024540503AF0>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 17:52:50,897:INFO:Checking exceptions
+2021-05-28 17:52:50,897:INFO:Preloading libraries
+2021-05-28 17:52:50,986:INFO:Initializing load_model()
+2021-05-28 17:52:50,988:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:54:48,822:INFO:Initializing load_model()
+2021-05-28 17:54:48,822:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:54:49,053:INFO:Initializing predict_model()
+2021-05-28 17:54:49,054:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x0000024541705250>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 17:54:49,057:INFO:Checking exceptions
+2021-05-28 17:54:49,057:INFO:Preloading libraries
+2021-05-28 17:54:49,129:INFO:Iterative Imputation: 1 cycle | Income
+2021-05-28 17:54:49,130:INFO:Iterative Imputation: 2 cycle | Income
+2021-05-28 17:54:49,130:INFO:Iterative Imputation: 3 cycle | Income
+2021-05-28 17:54:49,132:INFO:Iterative Imputation: 4 cycle | Income
+2021-05-28 17:54:49,133:INFO:Iterative Imputation: 5 cycle | Income
+2021-05-28 17:54:49,209:INFO:Initializing load_model()
+2021-05-28 17:54:49,210:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:55:33,634:INFO:Initializing load_model()
+2021-05-28 17:55:33,634:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:55:33,991:INFO:Initializing predict_model()
+2021-05-28 17:55:33,991:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x0000024546959C10>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 17:55:33,994:INFO:Checking exceptions
+2021-05-28 17:55:33,994:INFO:Preloading libraries
+2021-05-28 17:55:34,100:INFO:Iterative Imputation: 1 cycle | Income
+2021-05-28 17:55:34,101:INFO:Iterative Imputation: 2 cycle | Income
+2021-05-28 17:55:34,101:INFO:Iterative Imputation: 3 cycle | Income
+2021-05-28 17:55:34,102:INFO:Iterative Imputation: 4 cycle | Income
+2021-05-28 17:55:34,103:INFO:Iterative Imputation: 5 cycle | Income
+2021-05-28 17:55:34,131:INFO:Initializing load_model()
+2021-05-28 17:55:34,132:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:57:49,209:INFO:Initializing load_model()
+2021-05-28 17:57:49,210:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 17:57:49,668:INFO:Initializing load_model()
+2021-05-28 17:57:49,670:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:03:26,944:INFO:Initializing load_model()
+2021-05-28 18:03:26,945:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:03:27,209:INFO:Initializing predict_model()
+2021-05-28 18:03:27,209:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x0000024546676070>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 18:03:27,212:INFO:Checking exceptions
+2021-05-28 18:03:27,212:INFO:Preloading libraries
+2021-05-28 18:03:27,289:INFO:Iterative Imputation: 1 cycle | Income
+2021-05-28 18:03:27,289:INFO:Iterative Imputation: 2 cycle | Income
+2021-05-28 18:03:27,289:INFO:Iterative Imputation: 3 cycle | Income
+2021-05-28 18:03:27,292:INFO:Iterative Imputation: 4 cycle | Income
+2021-05-28 18:03:27,293:INFO:Iterative Imputation: 5 cycle | Income
+2021-05-28 18:03:27,378:INFO:Initializing load_model()
+2021-05-28 18:03:27,379:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:03:33,812:INFO:Initializing load_model()
+2021-05-28 18:03:33,814:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:04:43,622:INFO:Initializing load_model()
+2021-05-28 18:04:43,622:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:04:43,979:INFO:Initializing predict_model()
+2021-05-28 18:04:43,979:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x0000024546D1DB20>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 18:04:43,981:INFO:Checking exceptions
+2021-05-28 18:04:43,982:INFO:Preloading libraries
+2021-05-28 18:04:44,128:INFO:Iterative Imputation: 1 cycle | Income
+2021-05-28 18:04:44,129:INFO:Iterative Imputation: 2 cycle | Income
+2021-05-28 18:04:44,132:INFO:Iterative Imputation: 3 cycle | Income
+2021-05-28 18:04:44,133:INFO:Iterative Imputation: 4 cycle | Income
+2021-05-28 18:04:44,134:INFO:Iterative Imputation: 5 cycle | Income
+2021-05-28 18:04:54,811:INFO:Initializing load_model()
+2021-05-28 18:04:54,812:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:05:22,386:INFO:Initializing load_model()
+2021-05-28 18:05:22,387:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:05:22,748:INFO:Initializing predict_model()
+2021-05-28 18:05:22,748:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x000002453FAE9E80>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 18:05:22,750:INFO:Checking exceptions
+2021-05-28 18:05:22,751:INFO:Preloading libraries
+2021-05-28 18:05:22,861:INFO:Iterative Imputation: 1 cycle | Income
+2021-05-28 18:05:22,862:INFO:Iterative Imputation: 2 cycle | Income
+2021-05-28 18:05:22,863:INFO:Iterative Imputation: 3 cycle | Income
+2021-05-28 18:05:22,864:INFO:Iterative Imputation: 4 cycle | Income
+2021-05-28 18:05:22,865:INFO:Iterative Imputation: 5 cycle | Income
+2021-05-28 18:08:42,402:INFO:Initializing load_model()
+2021-05-28 18:08:42,404:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:08:42,880:INFO:Initializing load_model()
+2021-05-28 18:08:42,883:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:08:42,932:INFO:Initializing predict_model()
+2021-05-28 18:08:42,933:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x0000024546029FA0>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 18:08:42,934:INFO:Checking exceptions
+2021-05-28 18:08:42,935:INFO:Preloading libraries
+2021-05-28 18:08:43,024:INFO:Iterative Imputation: 1 cycle | Income
+2021-05-28 18:08:43,025:INFO:Iterative Imputation: 2 cycle | Income
+2021-05-28 18:08:43,026:INFO:Iterative Imputation: 3 cycle | Income
+2021-05-28 18:08:43,026:INFO:Iterative Imputation: 4 cycle | Income
+2021-05-28 18:08:43,026:INFO:Iterative Imputation: 5 cycle | Income
+2021-05-28 18:10:39,807:INFO:Initializing load_model()
+2021-05-28 18:10:39,808:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:10:40,109:INFO:Initializing predict_model()
+2021-05-28 18:10:40,110:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Education',
+                                                            'Marital_Status'],
+                                      display_types=False,
+                                      features_todrop=['ID'],
+                                      ml_usecase='classification',
+                                      target='Response')),
+                ('imputer',
+                 Iterative_Imputer(classifier=<catboost.core.CatBoostClassifier object at 0x000002453FADA3D0>,
+                                   max_iter=5, ordinal_columns=[],
+                                   random_state=123,
+                                   regressor=<c...
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='Response',
+                                       threshold=0.8)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply', 'divide'], n_jobs=-1,
+                             random_state=123, subclass='binary',
+                             target='Response',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 RidgeClassifier(alpha=9.17, fit_intercept=False,
+                                 random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-28 18:10:40,111:INFO:Checking exceptions
+2021-05-28 18:10:40,112:INFO:Preloading libraries
+2021-05-28 18:10:40,190:INFO:Initializing load_model()
+2021-05-28 18:10:40,191:INFO:load_model(model_name=modelifoods, platform=None, authentication=None, verbose=True)
+2021-05-28 18:10:40,206:INFO:Iterative Imputation: 1 cycle | Income
+2021-05-28 18:10:40,207:INFO:Iterative Imputation: 2 cycle | Income
+2021-05-28 18:10:40,208:INFO:Iterative Imputation: 3 cycle | Income
+2021-05-28 18:10:40,208:INFO:Iterative Imputation: 4 cycle | Income
+2021-05-28 18:10:40,209:INFO:Iterative Imputation: 5 cycle | Income

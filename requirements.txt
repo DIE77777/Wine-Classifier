@@ -1,4 +1,12 @@
-pycaret
-streamlit
-pandas
-numpy
+pystan==2.17.0.0
+plotly==4.14.3
+fbprophet==0.7.1
+streamlit==0.61.0
+pandas==1.1.4
+numpy==1.19.1
+scikit-learn==0.23.2
+pycaret==2.2
+xlrd
+
+
+
