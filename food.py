@@ -83,7 +83,7 @@ def run():
             data['Dt_Customer']  = pd.to_datetime(data['Dt_Customer'], format='%Y-%m-%d')
             data['Dt_Customer'] = round(pd.to_numeric((pd.to_datetime('2021-05-01') - data['Dt_Customer']) / np.timedelta64(1, 'M')))
             predictions = predict_model(estimator=model,data=data)
-            predictions['Label']=np.where(predictions['Label']==0,'Acepta','Rechaza')                       
+            predictions['Label']=np.where(predictions['Label']==1,'Acepta','Rechaza')                       
             st.write(predictions)
             st.write(get_table_download_link(predictions,'profiles.csv', 'Download predictions  👨‍💻'), unsafe_allow_html=True)
         
